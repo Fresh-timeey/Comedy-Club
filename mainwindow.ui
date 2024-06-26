@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>666</width>
-    <height>430</height>
+    <width>581</width>
+    <height>554</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>311</width>
-      <height>51</height>
+      <width>421</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
@@ -29,7 +29,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Формат задания исходных данных:</string>
+     <string>Первый формат задания исходных данных:</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
@@ -93,7 +93,7 @@
      <rect>
       <x>190</x>
       <y>120</y>
-      <width>431</width>
+      <width>361</width>
       <height>51</height>
      </rect>
     </property>
@@ -116,24 +116,6 @@
      <string>Словестное Описание</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>180</y>
-      <width>421</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>9</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Открыть часы с началом счета от заданного времени!</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
@@ -152,13 +134,69 @@
      <string>Взять время из таймера</string>
     </property>
    </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>431</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>421</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Второй формат словестного описания даты:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>431</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ДД.ММ.ГГГГ       ЧЧ:ММ:СС</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>666</width>
+     <width>581</width>
      <height>26</height>
     </rect>
    </property>
